@@ -1,0 +1,79 @@
+*{
+  background-color: #2e4a62;
+}
+.main_container {
+  /* border: 1px dashed; */
+}
+.header{
+  border: 1px dashed;
+}
+.page-container {
+  border: 1px dashed;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.username {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.logo {
+  grid-area: logo;
+}
+.links {
+  grid-area: links;
+}
+.box {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.box1 {
+   border: 1px dashed;
+}
+.shares {
+  display: flex;
+  padding: 30px;
+}
+battle-format {
+  display: grid;
+  background: #172719;
+  height: 650px;
+  width: 550px;
+}
+.img-1 {
+  display: flex;
+  justify-content: space-around;
+  background: #AAAE8E;
+  height: 200px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.label {
+  height: 50px;
+  width: 50px;
+}
+.name {
+  background: orange;
+  height: 90px;
+}
+.link {
+  background: red;
+  align: center;
+  width: 90%;
+  height: 80px;
+}
+.power-level {
+  display: flex;
+  justify-content: space-around;
+  background: pink;
+  height: 70px;
+}
+.influence {
+  background: brown;
+  height: 100px;
+}
