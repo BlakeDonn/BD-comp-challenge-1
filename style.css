@@ -86,7 +86,6 @@ a:active {
 .box {
   display: grid;
   grid-row-gap: 1em;
-  grid-column-gap: 1em;
   grid-template-columns: 25% 25% 25% 25%;
 }
 .box1 {
@@ -273,13 +272,13 @@ battle-format {
   font-size: smaller;
 }
 .link {
-  background-color: transparent;
   align: center;
   margin-top: -20px;
-  width: 85%;
+  width: 75%;
   height: 20px;
   margin-left: 5%;
   padding:10px;
+  word-wrap: break-word;
 }
 .linkttext {
   margin-top: -5%;
@@ -291,6 +290,7 @@ battle-format {
 }
 
 .fight-style {
+  font-size: smaller;
   background-color: transparent;
   height: 35px;
   margin-left: 5%;
@@ -300,7 +300,7 @@ battle-format {
   background-color: transparent;
 }
 .quote {
-  margin-top: -8%;
+  margin-top: -5%;
   font-size: smaller;
   width: 90%;
   word-wrap: break-word;
