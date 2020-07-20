@@ -1,3 +1,4 @@
+
 *{
   background-color: #2F4454;
   font-family: 'Noto Sans JP', sans-serif;
@@ -110,6 +111,7 @@ battle-format {
   background-position: center;
   /* background: #AAAE8E; */
   height: 150px;
+  grid-area 1;
 }
 .img-2 {
   display: flex;
@@ -119,6 +121,7 @@ battle-format {
   background-size: 400px 550px;
   float: left;
   height: 150px;
+  grid-area 2;
 }
 .img-3 {
   display: flex;
@@ -128,6 +131,7 @@ battle-format {
   float: left;
   background-size: 400px 525px;
   height: 150px;
+  grid-area 3;
 }
 .img-4 {
   display: flex;
@@ -137,6 +141,7 @@ battle-format {
   float: left;
   background-size: 400px 525px;
   height: 150px;
+  grid-area 4;
 }
 .img-5 {
   display: flex;
@@ -146,6 +151,7 @@ battle-format {
   float: left;
   background-size: 400px 525px;
   height: 150px;
+  grid-area 5;
 }
 .img-6 {
   display: flex;
@@ -155,6 +161,7 @@ battle-format {
   float: left;
   background-size: 400px 525px;
   height: 150px;
+  grid-area 6;
 }
 .img-7 {
   display: flex;
@@ -164,6 +171,7 @@ battle-format {
   float: left;
   background-size: 400px 525px;
   height: 150px;
+  grid-area 7;
 }
 .img-8 {
   display: flex;
@@ -173,6 +181,7 @@ battle-format {
   float: left;
   background-size: 400px 525px;
   height: 150px;
+  grid-area 8;
 }
 .logo {
   margin-top: 2%;
@@ -318,4 +327,17 @@ battle-format {
 .number {
   margin-top: -8%;
   background-color: transparent;
+}
+
+@media screen and (max-width: 900px) {
+  .box {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .box {
+    display: grid;
+    grid-template-columns: 100%;
+  }
 }
