@@ -1,37 +1,95 @@
 *{
-  background-color: #2e4a62;
+  background-color: #2F4454;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .main_container {
-  /* border: 1px dashed; */
+  background-color: #2F4454;
 }
 .header{
-  border: 1px dashed;
+  background-color: #1C3334;
 }
 .page-container {
-  border: 1px dashed;
 }
+/* 2E151B */
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  background-color: transparent;
+}
+a {
+  background-color: transparent;
 }
 .username {
+  margin-top: 2%;
+  margin-right: 5%;
   display: flex;
   justify-content: flex-end;
-  padding: 20px;
+  background-color: transparent;
 }
-.logo {
-  grid-area: logo;
+a:link {
+  color: #2E151B;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #2E151B;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2E151B;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #2E151B;
+  text-decoration: underline;
+}
+.uselogo {
+  border-radius: 100px;
+  margin-top: 0px;
+  margin-right: 20px;
+  height: 40px;
+  width: 40px;
+  background:url("https://cdn4.iconfinder.com/data/icons/small-n-flat/24/user-128.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.logoarea {
+  margin-right:-33%;
+  height: 65px;
+  width: 65px;
+  background: url("https://image.flaticon.com/icons/svg/861/861908.svg");
+  background-position: center;
+}
+.logotext {
+  margin-left:15%;
+  height: 50px;
+  width: 300px;
+  background: url("https://i.imgur.com/AYftfSl.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .links {
-  grid-area: links;
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 50%;
+  background-color: transparent;
+}
+.match {
+  margin-right: 3%;
+}
+.prev {
+  margin-right: 3%;
 }
 .box {
   display: grid;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
   grid-template-columns: 25% 25% 25% 25%;
 }
 .box1 {
-   border: 1px dashed;
 }
 .shares {
   display: flex;
@@ -40,40 +98,224 @@
 battle-format {
   display: grid;
   background: #172719;
-  height: 650px;
-  width: 550px;
+  height: 425px;
+  width: 325px;
+  overflow: hidden;
+  border: 2px solid #2E151B;
 }
 .img-1 {
+  margin-right: 0%;
   display: flex;
   justify-content: space-around;
-  background: #AAAE8E;
-  height: 200px;
+  background-image: url("https://i.ytimg.com/vi/y-lpcbB1JFU/hqdefault.jpg");
+  background-position: center;
+  /* background: #AAAE8E; */
+  height: 150px;
+}
+.img-2 {
+  display: flex;
+  justify-content: space-around;
+  background-image: url("https://i.redd.it/iql16sna7od31.jpg");
+  background-position: center;
+  background-size: 400px 550px;
+  float: left;
+  height: 150px;
+}
+.img-3 {
+  display: flex;
+  justify-content: space-around;
+  background-image: url("https://comicvine1.cbsistatic.com/uploads/scale_small/11/119711/2710269-luke.jpg");
+  background-position: 70% 30%;
+  float: left;
+  background-size: 400px 525px;
+  height: 150px;
+}
+.img-4 {
+  display: flex;
+  justify-content: space-around;
+  background-image: url("https://vignette.wikia.nocookie.net/dragonballfighterz/images/e/ea/Goku_Artwork.png/revision/latest/top-crop/width/360/height/450?cb=20180902173423");
+  background-position: 70% 30%;
+  float: left;
+  background-size: 400px 525px;
+  height: 150px;
+}
+.img-5 {
+  display: flex;
+  justify-content: space-around;
+  background-image: url("https://vignette.wikia.nocookie.net/villains/images/3/37/Sauron_SOW-cienmatic.png/revision/latest?cb=20200201225932");
+  background-position: 80% 20%;
+  float: left;
+  background-size: 400px 525px;
+  height: 150px;
+}
+.img-6 {
+  display: flex;
+  justify-content: space-around;
+  background-image: url("https://vignette.wikia.nocookie.net/harrypotter/images/e/e0/TDHp2_Textless_Poster_Voldemort_action.jpg/revision/latest/scale-to-width-down/340?cb=20161119213411");
+  background-position: 80% 20%;
+  float: left;
+  background-size: 400px 525px;
+  height: 150px;
+}
+.img-7 {
+  display: flex;
+  justify-content: space-around;
+  background-image: url("https://fsb.zobj.net/crop.php?r=H1QPHpIvQiD3o_L_AXwwVOREAiQ8qIxQ7btMJV-fhObCWg0YjpdrAaPYNaxgsx3qmEm9nab8nEpBXSxJCJT8WebE9DDpKxJzzk7HuSatiF8OJvzmPENKaJ159SB1ei0wF36hbMjOLdO8PcwZ4AkLhmYi8f1WHZqcYlELWoh8r0BvOYlWV-uej5irPoE");
+  background-position: 90% 10%;
+  float: left;
+  background-size: 400px 525px;
+  height: 150px;
+}
+.img-8 {
+  display: flex;
+  justify-content: space-around;
+  background-image: url("https://i.pinimg.com/originals/4d/9b/a9/4d9ba9a5cb079194ef884d75105c12dc.png");
+  background-position: 35% 65%;
+  float: left;
+  background-size: 400px 525px;
+  height: 150px;
 }
 .logo {
-  height: 50px;
-  width: 50px;
+  margin-top: 2%;
+  margin-left: -18%;
+  height: 40%;
+  width: 20%;
+  background-color: transparent;
+  border-radius: 100%;
+  background-position: center;
 }
 .label {
-  height: 50px;
-  width: 50px;
+  background-image: url("https://i.imgur.com/EUqIfxf.png");
+  height: 40%;
+  width: 20%;
+  background-color: transparent;
+  border-radius: 100%;
+  background-position: center;
 }
+#arag{
+  background-image: url("https://i.imgur.com/Hq4v4Qh.jpg");
+}
+#pot{
+  background-image: url("https://i.imgur.com/n0RDR4P.jpg");
+}
+#luke{
+  background-image: url("https://i.imgur.com/GosHjCO.png");
+}
+#goku{
+  background-image: url("https://i.imgur.com/jtJf5rC.png");
+}
+#sauron{
+  background-image: url("https://i.imgur.com/qAgr2q9.png");
+}
+#volde{
+  background-image: url("https://i.imgur.com/EUqIfxf.png");
+}
+#vader{
+  background-image: url("https://i.imgur.com/Rbs8OZP.png");
+}
+#frieza{
+  background-image: url("https://i.imgur.com/5TJVse4.jpg");
+}
+#arag1{
+  background-image: url("https://i.imgur.com/pdDtL6u.jpg");
+  margin-top: 2%;
+  margin-right: -20%;
+}
+#pot1{
+  background-image: url("https://i.imgur.com/pQy9ElS.jpg");
+  margin-top: 2%;
+  margin-right: -13%;
+}
+#luke1{
+  background-image: url("https://i.imgur.com/buFCcMq.jpg");
+  margin-top: 2%;
+  margin-right: -5%;
+}
+#goku1{
+  background-image: url("https://i.imgur.com/buFCcMq.jpg");
+  margin-top: 2%;
+  margin-right: -20%;
+}
+#sauron1{
+  background-image: url("https://i.imgur.com/pQy9ElS.jpg");
+  margin-top: 2%;
+  margin-right: -20%;
+}
+#volde1{
+  background-image: url("https://i.imgur.com/LbY0w7x.jpg");
+  margin-top: 2%;
+  margin-right: -5%;
+}
+#vader1{
+  background-image: url("https://i.imgur.com/buFCcMq.jpg");
+  margin-top: 2%;
+  margin-right: -13%;
+}
+#frieza1{
+  background-image: url("https://i.imgur.com/buFCcMq.jpg");
+  margin-top: 2%;
+  margin-right: -22%;
+}
+
+
 .name {
-  background: orange;
-  height: 90px;
+  background-color: transparent;
+  height: 45px;
+  margin-left: 5%;
+}
+.name-title {
+  margin-top: -6%;
+  background-color: transparent;
+}
+.description {
+  margin-top: -9%;
+  background-color: transparent;
+  font-size: smaller;
 }
 .link {
-  background: red;
+  background-color: transparent;
   align: center;
+  margin-top: -20px;
+  width: 85%;
+  height: 20px;
+  margin-left: 5%;
+  padding:10px;
+}
+.linkttext {
+  margin-top: -5%;
+  width: 80%;
+  word-wrap: break-word;
+  margin-left: 2%;
+  font-size: smaller;
+  /* background-color: transparent; */
+}
+
+.fight-style {
+  background-color: transparent;
+  height: 35px;
+  margin-left: 5%;
+}
+.combat {
+  margin-top: -3%;
+  background-color: transparent;
+}
+.quote {
+  margin-top: -8%;
+  font-size: smaller;
   width: 90%;
-  height: 80px;
+  word-wrap: break-word;
+  background-color: transparent;
 }
-.power-level {
-  display: flex;
-  justify-content: space-around;
-  background: pink;
-  height: 70px;
+.power {
+  margin-left: 5%;
+  background-color: transparent;
+  height: 40px;
 }
-.influence {
-  background: brown;
-  height: 100px;
+.powerlvl {
+  margin-top: 3%;;
+  background-color: transparent;
+}
+.number {
+  margin-top: -8%;
+  background-color: transparent;
 }
